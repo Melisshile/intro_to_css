@@ -1,0 +1,99 @@
+* {
+    font-family: "Sedan", serif; 
+    font-size: 20px;
+    box-sizing: border-box;
+}
+body {
+    background-color: whitesmoke;
+}
+.navClass {
+    background-color: blanchedalmond;
+    padding-right: auto; 
+    padding-left: auto;
+    margin: 0%;
+}
+.mainDiv {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.logo {
+    font-size: 15px; 
+    font-weight: 600;
+    color:darkorange;
+}
+.ulClass {
+    list-style: none;
+    font-size:10px; 
+    font-weight: bold; 
+    margin-right:0;
+}
+.vidcol {
+    overflow: hidden;
+    background-color: rgba(255, 99, 71, 0.5);
+}
+video{
+    width: 100%;
+    height: 300px;
+}
+body{
+    animation: mymove 5s linear infinite;
+}
+@keyframes mymove {
+    from{
+        background-color: blueviolet;
+    }
+    to{
+        background-color: brown;
+    }
+}
+#idli {
+    display: inline-block;
+    padding-right: 30px;
+}
+#tdid {
+    width : 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    overflow: hidden;
+}
+#imgid {
+    width :100%; 
+    height:auto; 
+    display:block;
+}
+#pushimg {
+    padding-left: 400px;
+}
+.tcontent {
+    tab-size: auto;
+}
+.address {
+    font-size : 30px;
+    margin: auto;
+}
+#addressspace {
+    padding-left: 15px;
+    padding-right: 350px;
+}
+#tdlink {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#resizelinks {
+    font-size : 50px; 
+       
+}
+.footerpage {
+    background-color: blanchedalmond;
+    margin: 0%;
+    animation: mymove 5s linear infinite;
+}
+@keyframes footmove {
+    from{
+        background-color: whitesmoke;
+    }
+    to{
+        background-color: lightseagreen;
+    }
+}
